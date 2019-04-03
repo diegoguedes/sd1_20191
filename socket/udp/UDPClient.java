@@ -1,4 +1,4 @@
-package SocketUDP;
+package udp;
 
 import java.net.*;
 import java.io.*;
@@ -8,9 +8,6 @@ public class UDPClient {
 		// args give message contents and server hostname
 		DatagramSocket aSocket = null;
 		try {
-			args = new String[2];
-			args[0] = "teste";
-			args[1] = "127.0.0.1";
 			aSocket = new DatagramSocket();
 			byte[] m = args[0].getBytes();
 			InetAddress aHost = InetAddress.getByName(args[1]);
