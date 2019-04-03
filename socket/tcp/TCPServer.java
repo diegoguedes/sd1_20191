@@ -1,4 +1,4 @@
-package SocketTCP;
+package tcp;
 
 import java.net.*;
 import java.io.*;
@@ -17,5 +17,3 @@ public class TCPServer {
 		}
 	}
 }
-
-// this figure continues on the next slide
